@@ -1,0 +1,20 @@
+#followerfollowing{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#unfollowbutton{
+    padding: 5px 10px;
+	border: none;
+	background-color: rgba(44, 197, 189, 0.867);
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#unfollowbutton:hover{
+	background-color: rgba(98, 215, 209, 0.867);
+  	transform: translateY(-2px);
+}

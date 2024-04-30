@@ -1,0 +1,76 @@
+#comment {
+	resize: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #DADCE0;
+	border-radius: 7px;
+	font-size: 16px;
+	padding: 0 20px;
+	outline: none;
+	background: none;
+	z-index: 1;
+}
+
+.newHenk{
+	position: relative;
+	height: 75px;
+	width: 95.7%;
+	margin-bottom: 17px;
+}
+
+.newHenkLabel {
+	margin-top: 50px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	padding: 0 4px;
+	background-color: white;
+	color: #DADCE0;
+	font-size: 16px;
+	transition: 0.5s;
+	z-index: 0;
+}
+
+#comment:focus + .newHenkLabel {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(44, 197, 189, 0.867);
+}
+
+#comment:not(:placeholder-shown) + .newHenkLabel {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(44, 197, 189, 0.867);
+}
+
+#comment:focus{
+    border: 2px solid rgba(44, 197, 189, 0.867);
+}
+
+.newHenkButton{
+	/*display: block;
+	margin-left: auto;*/
+	float:right;
+	padding: 5px 10px;
+	border: none;
+	background-color: rgba(44, 197, 189, 0.867);
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 16px;
+	/*margin-top: 30px;*/
+}
+
+.newHenkButton:hover{
+	background-color: rgba(98, 215, 209, 0.867);
+  	transform: translateY(-2px);
+}

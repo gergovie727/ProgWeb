@@ -1,0 +1,13 @@
+.followlistStyle {
+    list-style-type: none;
+    padding: 0;
+    font-style: italic;
+    margin-left:30px;
+}
+#profilefollow {
+    border-left:1px solid #DADCE0;
+    border-right:1px solid #DADCE0;
+    width:80%;
+    
+}
+

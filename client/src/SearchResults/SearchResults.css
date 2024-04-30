@@ -1,0 +1,11 @@
+#searchresults{
+    border-left:1px solid #DADCE0;
+    border-right:1px solid #DADCE0;
+    width:80%;
+    padding:10px;
+}
+
+.searchstyle{
+    list-style-type: none;
+    padding: 0;
+}

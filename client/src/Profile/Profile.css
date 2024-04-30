@@ -1,0 +1,30 @@
+#profile{
+    border-left:1px solid #DADCE0;
+    border-right:1px solid #DADCE0;
+    width:80%;
+    padding:10px;
+}
+
+#profilehenks{
+    overflow-y: auto;
+	height: 600px;
+}
+
+#numberfollow{
+    cursor:pointer;
+}
+
+#followOrUnfollowbutton{
+    padding: 5px 10px;
+	border: none;
+	background-color: rgba(44, 197, 189, 0.867);
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#followOrUnfollowbutton:hover{
+	background-color: rgba(98, 215, 209, 0.867);
+  	transform: translateY(-2px);
+}
